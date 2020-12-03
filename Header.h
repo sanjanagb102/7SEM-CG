@@ -9,4 +9,11 @@ void LabPA_1_main(int, char**);
 void LabPA_2_main(int, char**);
 void LabPA_3_main(int, char**);
 int LabPA_4_main(int, char**);
+void LabPA_5_main(int, char**);
+void LabPA_6_main(int, char**);
+void LabPA_7_main(int, char**);
+void LabPA_8_main(int, char**);
+void LabPA_9_main(int, char**);
+int LabPA_10_main(int, char**);
+void LabPA_11_main(int, char**);
 

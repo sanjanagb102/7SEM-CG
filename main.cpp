@@ -10,5 +10,5 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-	LabPA_4_main(argc, argv);
+	LabPA_11_main(argc, argv);
 }
