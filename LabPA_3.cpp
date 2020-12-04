@@ -1,83 +1,70 @@
 #include <GL/glut.h>
 #include "Header.h"
-void draw_pixel(GLint cx, GLint cy)
+/* initial triangle */
+typedef GLfloat point[3];
+point v[] = { {30.0, 50.0, 100.0}, {0.0, 450.0, -150.0},
+ {-350.0, -400.0, -150.0}, {350., -400., -150.0} };
+int n; /* number of recursive steps */
+void triangle(point a, point b, point c)
+/* display one triangle */
 {
-	glColor3f(1.0, 0.0, 0.0);
-	glBegin(GL_POINTS);
-	glVertex2i(cx, cy);
+	glBegin(GL_TRIANGLES);
+	glVertex3fv(a);
+	glVertex3fv(b);
+	glVertex3fv(c);
 	glEnd();
 }
-void plotpixels(GLint h, GLint k, GLint x, GLint y)
+void divide_triangle(point a, point b, point c, int m)
 {
-	draw_pixel(x + h, y + k);
-	draw_pixel(-x + h, y + k);
-	draw_pixel(x + h, -y + k);
-	draw_pixel(-x + h, -y + k);
-	draw_pixel(y + h, x + k);
-	draw_pixel(-y + h, x + k);
-	draw_pixel(y + h, -x + k);
-	draw_pixel(-y + h, -x + k);
-}
-void Circle_draw(GLint h, GLint k, GLint r) // Midpoint Circle Drawing Algorithm
-{
-	GLint d = 1 - r, x = 0, y = r;
-	while (y > x)
+	/* triangle subdivision using vertex numbers */
+	point v0, v1, v2;
+	int j;
+	if (m > 0)
 	{
-		plotpixels(h, k, x, y);
-		if (d < 0)
-			d += 2 * x + 3;
-		else
-		{
-			d += 2 * (x - y) + 5;
-			--y;
-		}
-		++x;
+		for (j = 0; j < 3; j++) v0[j] = (a[j] + b[j]) / 2;
+		for (j = 0; j < 3; j++) v1[j] = (a[j] + c[j]) / 2;
+		for (j = 0; j < 3; j++) v2[j] = (b[j] + c[j]) / 2;
+		divide_triangle(a, v0, v1, m - 1);
+		divide_triangle(c, v1, v2, m - 1);
+		divide_triangle(b, v2, v0, m - 1);
 	}
-	plotpixels(h, k, x, y);
+	else(triangle(a, b, c));
+	/* draw triangle at end of recursion */
 }
-void Cylinder_draw()
+void tetra(int m)
 {
-	GLint xc = 100, yc = 100, r = 50, i, n = 50;
-		for (i = 0; i < n; i += 3)
-			Circle_draw(xc, yc + i, r);
-}
-void parallelepiped(int x1, int x2, int y1, int y2)
-{
-	glColor3f(0.0, 0.0, 1.0);
-	glBegin(GL_LINE_LOOP);
-	glVertex2i(x1, y1);
-	glVertex2i(x2, y1);
-	glVertex2i(x2, y2);
-	glVertex2i(x1, y2);
-	glEnd();
-}
-void parallelepiped_draw()
-{
-	int x1 = 200, x2 = 300, y1 = 100, y2 = 175, i, n = 40;
-	for (i = 0; i < n; i += 2)
-		parallelepiped(x1 + i, x2 + i, y1 + i, y2 + i);
-}
-void initLABPA3(void)
-{
-	glClearColor(1.0, 1.0, 1.0, 0.0);
-	glMatrixMode(GL_PROJECTION);
-	gluOrtho2D(0.0, 400.0, 0.0, 300.0);
-}
-void displayLABPA3(void)
-{
-	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0, 0.0, 0.0);
-	Cylinder_draw();
-	parallelepiped_draw();
+	divide_triangle(v[0], v[1], v[2], m);
+	glColor3f(0.0, 1.0, 0.0);
+	divide_triangle(v[3], v[2], v[1], m);
+	glColor3f(0.0, 0.0, 1.0);
+	divide_triangle(v[0], v[3], v[1], m);
+	glColor3f(0.0, 0.0, 0.0);
+	divide_triangle(v[0], v[2], v[3], m);
+}
+void displayLABPA4()
+{
+	glClearColor(1.0, 1.0, 1.0, 1.0);
+	glClear(GL_COLOR_BUFFER_BIT);
+	tetra(n);
 	glFlush();
 }
-void LabPA_3_main(int argc, char** argv)
+void myinitLABPA4()
 {
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	glOrtho(-499.0, 499.0, -499.0, 499.0, -499.0, 499.0);
+	glMatrixMode(GL_MODELVIEW);
+}
+int LabPA_4_main(int argc, char** argv)
+{
+	n = 5;
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowSize(400, 300);
-	glutCreateWindow("Cylinder,parallelePiped Disp by Extruding Circle &Quadrilaterl ");
-	initLABPA3();
-	glutDisplayFunc(displayLABPA3);
+	glutInitWindowSize(500, 500);
+	glutCreateWindow("3D Gasket");
+	glutDisplayFunc(displayLABPA4);
+	myinitLABPA4();
 	glutMainLoop();
+	return 0;
 }

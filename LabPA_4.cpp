@@ -1,70 +1,93 @@
-#include <GL/glut.h>
-#include "Header.h"
-/* initial triangle */
-typedef GLfloat point[3];
-point v[] = { {30.0, 50.0, 100.0}, {0.0, 450.0, -150.0},
- {-350.0, -400.0, -150.0}, {350., -400., -150.0} };
-int n; /* number of recursive steps */
-void triangle(point a, point b, point c)
-/* display one triangle */
-{
-	glBegin(GL_TRIANGLES);
-	glVertex3fv(a);
-	glVertex3fv(b);
-	glVertex3fv(c);
+#include<stdlib.h>
+#include<gl/glut.h>
+#include<algorithm>
+#include<iostream>
+#include<windows.h>
+
+using namespace std;
+float x[100], y[100]; //= { 0,0,20,100,100 }, y[] = { 0,100,50,100,0 };
+
+int n, m;
+int wx = 500, wy = 500;
+static float intx[10] = { 0 };
+
+void draw_line(float x1, float y1, float x2, float y2) {
+	Sleep(100);
+	glColor3f(1, 0, 0);
+	glBegin(GL_LINES);
+	glVertex2f(x1, y1);
+	glVertex2f(x2, y2);
 	glEnd();
-}
-void divide_triangle(point a, point b, point c, int m)
-{
-	/* triangle subdivision using vertex numbers */
-	point v0, v1, v2;
-	int j;
-	if (m > 0)
-	{
-		for (j = 0; j < 3; j++) v0[j] = (a[j] + b[j]) / 2;
-		for (j = 0; j < 3; j++) v1[j] = (a[j] + c[j]) / 2;
-		for (j = 0; j < 3; j++) v2[j] = (b[j] + c[j]) / 2;
-		divide_triangle(a, v0, v1, m - 1);
-		divide_triangle(c, v1, v2, m - 1);
-		divide_triangle(b, v2, v0, m - 1);
-	}
-	else(triangle(a, b, c));
-	/* draw triangle at end of recursion */
-}
-void tetra(int m)
-{
-	glColor3f(1.0, 0.0, 0.0);
-	divide_triangle(v[0], v[1], v[2], m);
-	glColor3f(0.0, 1.0, 0.0);
-	divide_triangle(v[3], v[2], v[1], m);
-	glColor3f(0.0, 0.0, 1.0);
-	divide_triangle(v[0], v[3], v[1], m);
-	glColor3f(0.0, 0.0, 0.0);
-	divide_triangle(v[0], v[2], v[3], m);
-}
-void displayLABPA4()
-{
-	glClearColor(1.0, 1.0, 1.0, 1.0);
-	glClear(GL_COLOR_BUFFER_BIT);
-	tetra(n);
 	glFlush();
+
 }
-void myinitLABPA4()
-{
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	glOrtho(-499.0, 499.0, -499.0, 499.0, -499.0, 499.0);
-	glMatrixMode(GL_MODELVIEW);
+
+void edgeDetect(float x1, float y1, float x2, float y2, int scanline) {
+
+	float temp;
+	if (y2 < y1) {
+
+		temp = x1; x1 = x2; x2 = temp;
+		temp = y1; y1 = y2; y2 = temp;
+	}
+
+	if (scanline > y1 && scanline < y2)
+		intx[m++] = x1 + (scanline - y1) * (x2 - x1) / (y2 - y1);
 }
-int LabPA_4_main(int argc, char** argv)
-{
-	n = 5;
-	glutInit(&argc, argv);
+
+void scanf_sill(float x[], float y[]) {
+	for (int s1 = 0; s1 <= wy; s1++) {
+		m = 0;
+		for (int i = 0; i < n; i++) {
+
+			edgeDetect(x[i], y[i], x[(i + 1) % n], y[(i + 1) % n], s1);
+		}
+		sort(intx, (intx + m));
+		if (m >= 2)
+			for (int i = 0; i < m; i = i + 2)
+				draw_line(intx[i], s1, intx[i + 1], s1);
+
+	}
+
+}
+
+void display_filled_polygon() {
+
+	glClear(GL_COLOR_BUFFER_BIT);
+	glLineWidth(2);
+	glBegin(GL_LINE_LOOP);
+	for (int i = 0; i < n; i++)
+		glVertex2f(x[i], y[i]);
+	glEnd();
+	scanf_sill(x, y);
+	//glFlush();
+}
+
+void myInit_LabPA2() {
+
+	glClearColor(1, 1, 1, 1);
+	glColor3f(0, 0, 1);
+	glPointSize(1);
+
+	gluOrtho2D(0, wx, 0, wy);
+
+}
+void LabPA_2_main(int ac, char* av[]) {
+	glutInit(&ac, av);
+	printf("Enter no. of sides: \n");
+	scanf_s("%d", &n);
+	printf("Enter coordinates of endpoints: \n");
+	for (int i = 0; i < n; i++)
+	{
+		printf("X-coord Y-coord: \n");
+		scanf_s("%f %f", &x[i], &y[i]);
+	}
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(500, 500);
-	glutCreateWindow("3D Gasket");
-	glutDisplayFunc(displayLABPA4);
-	myinitLABPA4();
+	glutInitWindowPosition(0, 0);
+	glutCreateWindow("scanline");
+	glutDisplayFunc(display_filled_polygon);
+	myInit_LabPA2();
 	glutMainLoop();
-	return 0;
+
 }
