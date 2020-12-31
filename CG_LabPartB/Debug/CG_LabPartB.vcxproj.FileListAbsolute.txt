@@ -1,0 +1,2 @@
+C:\Users\gvsan\source\repos\CG_LabPartB\Debug\CG_LabPartB.exe
+C:\Users\gvsan\source\repos\CG_LabPartB\Debug\CG_LabPartB.pdb

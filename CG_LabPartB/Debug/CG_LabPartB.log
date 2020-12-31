@@ -1,0 +1,158 @@
+﻿  main.cpp
+C:\Users\gvsan\source\repos\CG_LabPartB\File Management.h(57,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\File Management.h(106,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\File Management.h(138,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(107,37): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(107,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(108,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(108,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(109,53): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(109,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(110,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(110,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(122,49): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(122,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(123,57): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(123,30): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(124,66): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(124,30): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(125,58): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(125,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(129,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Button.h(129,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Pointer.h(37,52): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Pointer.h(37,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Cover.h(25,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Cover.h(26,34): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Cover.h(26,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Cover.h(27,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Canvas.h(196,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Canvas.h(200,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Canvas.h(205,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Canvas.h(209,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Canvas.h(210,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Canvas.h(279,21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(46,35): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(46,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(47,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(47,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(48,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(48,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(49,35): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(49,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(52,39): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(52,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(53,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(53,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(54,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(54,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(55,39): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Colour Palette.h(55,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Alert Dialogue.h(71,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Yes No Dialogue.h(96,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Yes No Dialogue.h(97,34): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Yes No Dialogue.h(97,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Yes No Dialogue.h(98,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Yes No Dialogue.h(103,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(34,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(35,10): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(61,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(95,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(143,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(145,104): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(150,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(175,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Open File Dialogue.h(202,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Save File Dialogue.h(118,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Save File Dialogue.h(119,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Save File Dialogue.h(123,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Top Menu Bar.h(37,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Toolbar.h(190,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Toolbar.h(191,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Toolbar.h(192,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Toolbar.h(193,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Pen.h(23,45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Pen.h(24,45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Pen.h(51,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Pen.h(52,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Pen.h(76,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Pen.h(76,40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Fill.h(32,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Fill.h(57,12): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Fill.h(76,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Fill.h(77,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rect.h(21,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rect.h(22,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(26,6): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(29,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(39,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(39,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(40,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(40,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(41,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(41,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(42,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(42,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(64,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(72,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(72,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(73,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(73,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(74,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(74,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(75,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(75,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(139,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Circ.h(140,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Move.h(41,52): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Move.h(41,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Move.h(42,95): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Move.h(44,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Move.h(87,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Move.h(88,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Erase.h(40,51): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Erase.h(40,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Erase.h(41,96): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Erase.h(43,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Erase.h(86,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Erase.h(87,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(9,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(41,51): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(41,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(42,96): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(44,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(87,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(88,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(275,14): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(276,14): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(277,14): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(278,14): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(291,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(291,83): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(291,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(291,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(292,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(292,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(295,123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(296,140): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(297,118): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\Tool_Rotate.h(298,135): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\main.cpp(126,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\gvsan\source\repos\CG_LabPartB\main.cpp(126,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  CG_LabPartB.vcxproj -> C:\Users\gvsan\source\repos\CG_LabPartB\Debug\CG_LabPartB.exe
